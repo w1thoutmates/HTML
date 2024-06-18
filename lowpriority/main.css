@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #b5beeb;
+}
+#header {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: #4d5173;
+    color: #fff;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+#auto {
+    text-align: center;
+    position: fixed;
+    left: 80%;
+    top: 18px;
+    color: #fff;
+    background-color: #4d5173;
+}
+
+#autorizationList{
+    list-style: none;
+}
+#autorizationList li{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+#in:hover{
+    color: #333;
+    background: #fff;
+}
+#reg:hover{
+    color: #333;
+    background: #fff;
+}
+#main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #a9b1de;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+label {
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],
+input[type="date"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #cacdde;
+}
+
+#noreg{
+    color: #3b3b40;
+}
+#noreg:hover{
+    text-line-through: single;
+}

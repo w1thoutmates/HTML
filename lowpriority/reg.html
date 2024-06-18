@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    a:hover{
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+<div id = "header"><a href = "index.html">Вернуться на главную</a></div>
+<div id = "auto">
+  <ul id = autorizationList>
+    <li id = "in"><a href = "in_reg.html">Вход</a></li>
+  </ul>
+  </div>
+<div id = "main">
+  <form action="" method="post">
+    <label for="username">Введите логин</label>
+    <input type="text" placeholder="Имя пользователя" name="username" id="username" maxlength="16">
+    <label for="password">Введите пароль</label>
+    <input type="password" placeholder="Пароль" name="password" id="password" maxlength="24">
+    <label for="email">Электронная почта</label>
+    <input type="email" placeholder="Email@adress.com" name="email" id="email">
+    <label for="date">Введите дату рождения </label>
+    <input type="date" placeholder="mm/dd/yyyy" name="date" id="date">
+    <input type="submit" value="Зарегистрироваться">
+  </form>
+</div>
+</body>
+</html>
